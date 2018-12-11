@@ -4,6 +4,6 @@ To run the code, type:
 python ddpg.py --mode ?? --load ?? --e ??
 in to command prompt/terminal to start.
 
-Select ¡°mode¡±  from train or test (determine train or test)
-Select ¡°load¡± from true or false (if load existing weights)
-Type any integer for ¡°e¡± to set number of episode for train mode (for test mode it will be auto set to 1¡±
+Select mode from train or test (determine train or test)
+Select load from true or false (if load existing weights)
+Type any integer for e to set number of episode for train mode (for test mode it will be auto set to 1)
