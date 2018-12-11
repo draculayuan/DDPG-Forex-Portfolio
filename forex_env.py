@@ -10,7 +10,7 @@ class ForexEnv:
         self.dataset = data
         self.initial_run = True
         self.time_index = 0
-        self.init_val_currency_hold = np.array([100000, 100000, 100000, 100000])
+        self.init_val_currency_hold = np.array([100000, 100000, 100000, 100000])  #hardcoded for 4 currency-pairs and set the initial value to 100000)
         self.done = False
         self.flag = flag
         self.seed = 0
